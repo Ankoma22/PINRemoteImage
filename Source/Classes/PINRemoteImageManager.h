@@ -40,6 +40,8 @@ typedef NS_ERROR_ENUM(PINRemoteImageManagerErrorDomain, PINRemoteImageManagerErr
     PINRemoteImageManagerErrorInvalidItemInCache = 4,
     /** The image at the URL was empty */
     PINRemoteImageManagerErrorImageEmpty = 5,
+    /** No internet connection */
+    PINRemoteImageManagerErrorNoInternetConnection = 6
 };
 
 /**
